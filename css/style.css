@@ -7,7 +7,11 @@ body {
 }
 img {
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
+}
+.img-squre {
+  width: 180px;
+  height: 180px;
 }
 .btn-orange {
   background: #e76f51;
@@ -17,10 +21,13 @@ img {
   color: #e0e0e0;
   font-size: 14px;
 }
+.primary-text-color {
+  color: #e76f51;
+}
 /*----------- Utilities End--- */
 /* -------------------- */
 
-/*----------- Banner Start--- */
+/*----------- Banner Section Start--- */
 /* -------------------- */
 .banner {
   background: #264653;
@@ -31,5 +38,21 @@ img {
 .banner-description {
   width: 81%;
 }
-/*----------- Banner End--- */
+/*----------- Banner Section End--- */
+/* -------------------- */
+
+/*----------- Feature Section Start--- */
+/* -------------------- */
+.img-grey {
+  filter: grayscale(100%);
+}
+/*----------- Feature Section End--- */
+/* -------------------- */
+
+/*----------- Client Section Start--- */
+/* -------------------- */
+.cients-name {
+  color: #23a6f0;
+}
+/*----------- Client Section End--- */
 /* -------------------- */
