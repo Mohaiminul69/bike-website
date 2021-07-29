@@ -61,6 +61,19 @@ img {
 /*----------- Client Section End--- */
 /* -------------------- */
 
+/*----------- FAQ Section Start--- */
+/* -------------------- */
+.accordion-button {
+  font-weight: 500;
+  color: #383838;
+}
+.accordion-button:not(.collapsed) {
+  color: #383838;
+  background-color: rgb(247, 247, 247);
+}
+/*----------- FAQ Section Start--- */
+/* -------------------- */
+
 /*----------- New Arrivals Section Start--- */
 /* -------------------- */
 #new-arrivals {
