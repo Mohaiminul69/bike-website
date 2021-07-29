@@ -4,49 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Imported Links Start -->
+    <!-- Imported Links Start -->
+
+    <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/23f1789103.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- BootStrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Imported Links End -->
+    <!-- Imported Links End -->
+
     <title>Honda CBR</title>
   </head>
   <body>
     <!-- Header Start -->
     <!-- Header Start -->
 
-    <header class="banner">
+    <header>
       <!-- Banner Section Start -->
       <!-- Banner Section Start -->
 
-      <div
-        class="container min-vh-100 d-flex align-items-center text-white py-5"
-      >
-        <div class="row d-flex align-items-center">
-          <div class="col-lg-6 col-12">
-            <p class="mb-1 paragraph-text fw-light">
-              Computer-controlled digital transistorized with electronic advance
-            </p>
-            <h1 class="mb-3 fw-bold">Honda CBR 300R</h1>
-            <p class="banner-description mb-4 paragraph-text fw-light">
-              As bikes are getting popular among youngsters, Honda is promoting
-              its new line of CBR 300R to incourage young bikers on the road.
-              Purchase now for amazing offers.
-            </p>
-            <button
-              class="btn btn-md btn-orange text-capitalize px-5 mb-5"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
-              purchase
-            </button>
-          </div>
-          <div class="col-lg-6 col-12">
-            <img src="./images/header-bike.png" alt="" />
+      <section id="banner">
+        <div
+          class="container min-vh-100 d-flex align-items-center text-white py-5"
+        >
+          <div class="row d-flex align-items-center">
+            <div class="col-lg-6 col-12">
+              <p class="mb-1 paragraph-text fw-light">
+                Computer-controlled digital transistorized with electronic
+                advance
+              </p>
+              <h1 class="mb-3 fw-bold">Honda CBR 300R</h1>
+              <p class="banner-description mb-4 paragraph-text fw-light">
+                As bikes are getting popular among youngsters, Honda is
+                promoting its new line of CBR 300R to incourage young bikers on
+                the road. Purchase now for amazing offers.
+              </p>
+              <button
+                class="btn btn-md btn-orange text-capitalize px-5 mb-5"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                purchase
+              </button>
+            </div>
+            <div class="col-lg-6 col-12">
+              <img src="./images/header-bike.png" alt="" />
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- Banner Section End -->
       <!-- Banner Section End -->
@@ -74,8 +90,8 @@
             </div>
             <div class="modal-body">
               <p>
-                Purchase now, Don't lose this exciting offer. This offer is for
-                a limited time only.
+                Purchase now, Don't lose this exciting offer. <br />
+                This offer is for a limited time only.
               </p>
             </div>
             <div class="modal-footer">
@@ -117,9 +133,11 @@
             justify-content-center
           "
         >
-          <h1 class="text-center">Fetured Bikes 2021</h1>
-          <p class="text-center text-danger">Best bike collection</p>
-          <div class="row py-4">
+          <h1 class="pt-3 text-center fw-bold">Featured Bikes 2021</h1>
+          <p class="pb-4 text-center primary-text-color">
+            Best bike collection
+          </p>
+          <div class="row">
             <div class="col-lg-4 col-12 img-grey">
               <img class="p-5" src="./images/feature-bike.jpg" alt="" />
             </div>
@@ -141,12 +159,12 @@
 
       <section id="client">
         <div class="container text-center my-5 px-4">
-          <h1 class="mb-5">
+          <h1 class="mb-5 fw-bold">
             Happy <span class="primary-text-color">Clients Says</span>
           </h1>
-          <div class="row gx-5">
+          <div class="row gx-4">
             <div class="col-lg-4 col-12">
-              <div class="card">
+              <div class="card mb-4 mx-2">
                 <img
                   src="./images/user-1.png"
                   class="w-50 mx-auto mt-5 mb-4 card-img-top"
@@ -154,23 +172,24 @@
                 />
                 <div class="card-body text-center">
                   <p class="card-text">
-                    Slate helps you see how many more days you need to work to
-                    reach your financial goal for the month and year.
+                    I am a regular client. Its good to see the happy faces
+                    taking care of my vehicle. Always a pleasue working with
+                    them.
                   </p>
                   <div class="rating">
                     <i class="primary-text-color fas fa-star"></i>
                     <i class="primary-text-color fas fa-star"></i>
                     <i class="primary-text-color fas fa-star"></i>
                     <i class="primary-text-color fas fa-star"></i>
-                    <i class="primary-text-color far fa-star"></i>
+                    <i class="primary-text-color fas fa-star"></i>
                   </div>
-                  <p class="my-3 fw-bold cients-name">Regina Miles</p>
-                  <p class="fw-bold">Banker</p>
+                  <p class="my-3 fw-bold cients-name">Depankar Chaki</p>
+                  <p class="fw-bold">Engineer</p>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-12">
-              <div class="card">
+              <div class="card mb-4 mx-2">
                 <img
                   src="./images/user-2.png"
                   class="w-50 mx-auto mt-5 mb-4 card-img-top"
@@ -178,32 +197,41 @@
                 />
                 <div class="card-body text-center">
                   <p class="card-text">
-                    Slate helps you see how many more days you need to work to
-                    reach your financial goal for the month and year.
+                    I am a regular client. Its good to see the happy faces
+                    taking care of my vehicle. Always a pleasue working with
+                    them.
                   </p>
                   <div class="rating">
                     <i class="primary-text-color fas fa-star"></i>
                     <i class="primary-text-color fas fa-star"></i>
                     <i class="primary-text-color fas fa-star"></i>
-                    <i class="primary-text-color fas fa-star"></i>
+                    <i class="primary-text-color far fa-star"></i>
                     <i class="primary-text-color far fa-star"></i>
                   </div>
-                  <p class="my-3 fw-bold cients-name">Regina Miles</p>
+                  <p class="my-3 fw-bold cients-name">Yum Cha</p>
                   <p class="fw-bold">Banker</p>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-12">
-              <div class="card">
+              <div class="card mb-4 mx-2">
                 <img
                   src="./images/user-3.jpg"
-                  class="img-squre mx-auto mt-5 mb-4 rounded-circle"
+                  class="
+                    img-squre
+                    mx-auto
+                    mt-5
+                    mb-4
+                    rounded-circle
+                    border border-2
+                  "
                   alt="..."
                 />
                 <div class="card-body text-center">
                   <p class="card-text">
-                    Slate helps you see how many more days you need to work to
-                    reach your financial goal for the month and year.
+                    I am a regular client. Its good to see the happy faces
+                    taking care of my vehicle. Always a pleasue working with
+                    them.
                   </p>
                   <div class="rating">
                     <i class="primary-text-color fas fa-star"></i>
@@ -213,7 +241,7 @@
                     <i class="primary-text-color far fa-star"></i>
                   </div>
                   <p class="my-3 fw-bold cients-name">Regina Miles</p>
-                  <p class="fw-bold">Banker</p>
+                  <p class="fw-bold">Fashion Designer</p>
                 </div>
               </div>
             </div>
@@ -224,12 +252,12 @@
       <!-- Client Section End -->
       <!-- Client Section End -->
 
-      <!-- Questions Section Start -->
-      <!-- Questions Section Start -->
+      <!-- FAQ Section Start -->
+      <!-- FAQ Section Start -->
 
       <section id="faq">
-        <div class="container text-center py-3 min-vh-100">
-          <h1 class="mb-5">
+        <div class="container text-center py-5 min-vh-100">
+          <h1 class="mb-5 fw-bold">
             Frequently <span class="primary-text-color">Asked Questions</span>
           </h1>
           <div class="row h-100">
@@ -239,7 +267,10 @@
             <div class="col-lg-6 col-12">
               <div class="accordion text-start" id="accordionExample">
                 <div class="accordion-item my-3 my-2">
-                  <h2 class="accordion-header border-top" id="headingOne">
+                  <h1
+                    class="accordion-header border-top fw-bolder"
+                    id="headingOne"
+                  >
                     <button
                       class="accordion-button"
                       type="button"
@@ -251,7 +282,7 @@
                       What are the most important things I should know about
                       riding a bike?
                     </button>
-                  </h2>
+                  </h1>
                   <div
                     id="collapseOne"
                     class="accordion-collapse collapse show"
@@ -360,13 +391,214 @@
         </div>
       </section>
 
-      <!-- Questions Section End -->
-      <!-- Questions Section End -->
+      <!-- FAQ Section End -->
+      <!-- FAQ Section End -->
+
+      <!-- New Arrivals Section Start -->
+      <!-- New Arrivals Section Start -->
+
+      <section id="new-arrivals">
+        <div class="container py-5 min-vh-100 text-white">
+          <h1 class="text-center mb-5 fw-bold">
+            New <span class="primary-text-color">Arrivals</span>
+          </h1>
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div
+                  class="row d-flex justify-content-between align-items-center"
+                >
+                  <div class="col-lg-6 col-12 mb-5">
+                    <img
+                      src="/images/bike-2.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-lg-6 col-12 ps-4">
+                    <h1 class="text-uppercase">
+                      <span class="primary-text-color">latest arrivals</span
+                      ><br />of this season
+                    </h1>
+                    <p class="mt-3 mb-4 w-75">
+                      Don't miss out on our latest collection. All our bikes are
+                      imported directly from the dealer. <br />
+                      Pre-order now.
+                    </p>
+                    <button
+                      class="btn btn-md btn-orange text-capitalize px-5 mb-5"
+                    >
+                      Pre Order
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div
+                  class="row d-flex justify-content-between align-items-center"
+                >
+                  <div class="col-lg-6 col-12 mb-5">
+                    <img
+                      src="/images/bike-3.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-lg-6 col-12 ps-4">
+                    <h1 class="text-uppercase">
+                      <span class="primary-text-color">latest arrivals</span
+                      ><br />of this season
+                    </h1>
+                    <p class="mt-3 mb-4 w-75">
+                      Don't miss out on our latest collection. All our bikes are
+                      imported directly from the dealer. <br />
+                      Pre-order now.
+                    </p>
+                    <button
+                      class="btn btn-md btn-orange text-capitalize px-5 mb-5"
+                    >
+                      Pre Order
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div
+                  class="row d-flex justify-content-between align-items-center"
+                >
+                  <div class="col-lg-6 col-12 mb-5">
+                    <img
+                      src="/images/bike-4.jpg"
+                      class="img-rounded d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-lg-6 col-12 ps-4">
+                    <h1 class="text-uppercase">
+                      <span class="primary-text-color">latest arrivals</span
+                      ><br />of this season
+                    </h1>
+                    <p class="mt-3 mb-4 w-75">
+                      Don't miss out on our latest collection. All our bikes are
+                      imported directly from the dealer. <br />
+                      Pre-order now.
+                    </p>
+                    <button
+                      class="btn btn-md btn-orange text-capitalize px-5 mb-5"
+                    >
+                      Pre Order
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- New Arrivals Section End -->
+      <!-- New Arrivals Section End -->
+
+      <!-- Contact Section Start -->
+      <!-- Contact Section Start -->
+
+      <section id="contact">
+        <div class="container min-vh-100 py-5 px-4">
+          <h1 class="my-3 text-center fw-bold">
+            Contact <span class="primary-text-color">Us</span>
+          </h1>
+          <div class="row d-flex align-items-center">
+            <div class="col-lg-6 col-12 p-5">
+              <img src="./images/bike-2.png" alt="" />
+            </div>
+            <div class="col-lg-6 col-12">
+              <form class="row g-3">
+                <div class="col-md-12">
+                  <label for="inputEmail4" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Name"
+                    aria-label="name"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    placeholder="Your Email"
+                    class="form-control"
+                    id="inputEmail4"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Phone</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    placeholder="Phone Number"
+                    id="inputPassword4"
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Address</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputAddress"
+                    placeholder="1234 Main St"
+                  />
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section End -->
+      <!-- Contact Section End -->
     </main>
 
     <!-- Main End -->
     <!-- Main End -->
-    <footer></footer>
+
+    <!-- JavaScript Files Start -->
+    <!-- JavaScript Files Start -->
+
     <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript Files End -->
+    <!-- JavaScript Files End -->
   </body>
 </html>

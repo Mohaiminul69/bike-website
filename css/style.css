@@ -1,3 +1,4 @@
+/* GooGle Font Link */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /*----------- Utilities Start--- */
@@ -10,8 +11,11 @@ img {
   object-fit: cover;
 }
 .img-squre {
-  width: 180px;
-  height: 180px;
+  width: 165px;
+  height: 165px;
+}
+.img-rounded {
+  border-radius: 20px;
 }
 .btn-orange {
   background: #e76f51;
@@ -19,7 +23,7 @@ img {
 }
 .paragraph-text {
   color: #e0e0e0;
-  font-size: 14px;
+  font-size: 16px;
 }
 .primary-text-color {
   color: #e76f51;
@@ -29,13 +33,13 @@ img {
 
 /*----------- Banner Section Start--- */
 /* -------------------- */
-.banner {
+#banner {
   background: #264653;
 }
-.banner h1 {
-  font-size: 48px;
+#banner h1 {
+  font-size: 40px;
 }
-.banner-description {
+#banner-description {
   width: 81%;
 }
 /*----------- Banner Section End--- */
@@ -55,4 +59,12 @@ img {
   color: #23a6f0;
 }
 /*----------- Client Section End--- */
+/* -------------------- */
+
+/*----------- New Arrivals Section Start--- */
+/* -------------------- */
+#new-arrivals {
+  background: #264653;
+}
+/*----------- New Arrivals Section End--- */
 /* -------------------- */
